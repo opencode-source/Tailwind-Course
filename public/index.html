@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+<head>
+  <link href="./styles.css" rel="stylesheet">
+  <title>OpenCode - Food</title>
+</head>
+<body class="font-body text-gray-600">
+
+  <div class="grid md:grid-cols-4 gap-0"> <!-- start wrapper -->
+
+    <div class="md:col-span-1"> <!-- start nav -->
+      <nav>
+        <div>
+          <h1 class="font-bold uppercase p-4 border-b border-gray-200">
+            <a href="#">OpenCode Food</a>
+          </h1>
+        </div>
+        <ul>
+          <li class="text-gray-700 font-bold">
+            <a href="#">
+              <span>Home</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span>About</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span>Contact</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div> <!-- end nav -->
+
+    <main class="px-16 py-6 bg-gray-100 md:col-span-3">
+      <div class="flex justify-center md:justify-end">
+        <a href="#" class="text-primary">Log in</a>
+        <a href="#" class="text-primary ml-2">Sign up</a>
+      </div>
+
+      <header>
+        <h2 class="text-gray-700 text-6xl font-semibold">Recipes</h2>
+        <h3 class="text-2xl font-semibold pl-1">For Everyone</h3>
+      </header>
+
+      <div>
+        <h4 class="font-bold mt-12 pb-2 border-b border-gray-300">Latest Recipes</h4>
+
+        <div class="grid lg:grid-cols-3 gap-10 mt-8">
+          <!-- Cards -->
+          <div class="card">
+            <img class="w-full h-32 sm:h-48 object-cover" src="./imges/ghorme.jpg" alt="ghorme">
+            <div class="m-4">
+              <span class="font-bold">Ghorme Sabzi</span>
+              <span class="block text-sm text-gray-400">Recipe by OpenCode</span>
+            </div>
+            <div class="badge">
+              <span>3 hours</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <img class="w-full h-32 sm:h-48 object-cover" src="./imges/gheyme.jpg" alt="gheyme">
+            <div class="m-4">
+              <span class="font-bold">Gheyme</span>
+              <span class="block text-sm text-gray-400">Recipe by OpenCode</span>
+            </div>
+            <div class="badge">
+              <span>2 hours</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <img class="w-full h-32 sm:h-48 object-cover" src="./imges/kabab.jpg" alt="kabab">
+            <div class="m-4">
+              <span class="font-bold">Kabab</span>
+              <span class="block text-sm text-gray-400">Recipe by OpenCode</span>
+            </div>
+            <div class="badge">
+              <span>25 mins</span>
+            </div>
+          </div>
+        </div>
+
+        <h4 class="font-bold mt-12 pb-2 border-b border-gray-300">Most Popular</h4>
+
+        <div class="mt-8">
+          <!-- Cards -->
+        </div>
+
+        <div class="flex justify-center">
+          <div class="bg-secondary-100 text-secondary-200">Load More</div>
+        </div>
+
+      </div>
+    </main>
+  </div> <!-- end wrapper -->
+
+</body>
+</html>
